@@ -20,8 +20,8 @@
   <div class="header-menu">
     <a id="header-menu-title" href="welsh.html">Hanes Abermaw</a>
     <div class="menu-right">
-      <a id="penodau" class="header-menu-item" href="penodau.html"
-        >Penodau</a
+      <a id="pennodau" class="header-menu-item" href="pennodau.html"
+        >Pennodau</a
       >
       <a id="amdanom-ni" class="header-menu-item" href="amdanom-ni.html"
         >Amdanom Ni</a
@@ -69,50 +69,53 @@
 </div>
 
 #CHAPTERS
-<div class="chapter-list center">
+div class="chapter-list center">
   <ul>
     <li>
-      <button href="chapters/chapter-1.html">Chapter 1: The First</button>
+      <a href="chapters/chapter-1.html">
+        <p>Chapter 1: The First Coming</p>
+      </a>
     </li>
     <li>
-      <button href="chapters/chapter-2.html">
-        Chapter 2: Electric Boogaloo
-      </button>
+      <a href="chapters/chapter-2.html">
+        <p>Chapter 2: Electric Boogaloo</p>
+      </a>
     </li>
     <li>
-      <button href="chapters/chapter-3.html">
-        Chapter 3: Chapter Again
-      </button>
+      <a href="chapters/chapter-3.html">
+        <p>Chapter 3: Chapter Again</p>
+      </a>
     </li>
     <li>
-      <button href="chapters/chapter-4.html">
-        Chapter 4: Return of the Chapter
-      </button>
+      <a href="chapters/chapter-4.html">
+        <p>Chapter 4: Return of the Chapter</p>
+      </a>
     </li>
     <li>
-      <button href="chapters/chapter-5.html">
-        Chapter 5: Too Chapter Too Chapterous
-      </button>
+      <a href="chapters/chapter-5.html">
+        <p>Chapter 5: Too Chapter Too Chapterous</p>
+      </a>
     </li>
     <li>
-      <button href="chapters/chapter-6.html">
-        Chapter 6: Hot Chapter
-      </button>
+      <a href="chapters/chapter-6.html">
+        <p>Chapter 6: Hot Chapter</p>
+      </a>
     </li>
     <li>
-      <button href="chapters/chapter-7.html">
-        Chapter 7: Chapter Chapter Bang Bang
-      </button>
+      <a href="chapters/chapter-7.html">
+        <p>Chapter 7: Chapter Chapter Bang Bang</p>
+      </a>
     </li>
     <li>
-      <button href="chapters/chapter-8.html">
-        Chapter 8: Chapter On Ice
-      </button>
+      <a href="chapters/chapter-8.html">
+        <p>Chapter 8: Chapter On Ice</p>
+      </a>
     </li>
     <li>
-      <button href="chapters/chapter-9.html">
-        Chapter 9: End of an Era
       </button>
+      <a href="chapters/chapter-9.html">
+        <p>Chapter 9: End of an Era</p>
+      </a>
     </li>
   </ul>
 </div>
