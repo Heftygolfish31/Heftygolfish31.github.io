@@ -23,11 +23,12 @@
     text-align: center;
     padding: 10px 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
+    color: black;
 }
 
 #header-menu-title {
-    color: Red;
+    color: red;
 }
 
 #change-language {
@@ -35,7 +36,7 @@
 }
 
 .main {
-    margin-top: 50px
+    margin-top: 65px;
 }
 
 .menu-right {
@@ -43,12 +44,10 @@
 }
 
 .welcome-container {
-    /* background-color: blanchedalmond; */
     border-bottom: 3px black solid;
 }
 
 .welcome-title {
-    /* background-color: aqua; */
     font-size: 80px;
     padding: 180px 0 0 0 ;
 
@@ -80,7 +79,7 @@
     text-align: center;
 }
 
-@media screen and (max-width: 525px) {
+@media screen and (max-width: 710px) {
     #header-menu-title {
         position: fixed;
         visibility: hidden;

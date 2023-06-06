@@ -1,32 +1,32 @@
 #HEADER
-<div class="header">
-    <div class="header-menu">
-    <a id="header-menu-title" href="english.html">Barmouth History</a>
-    <div class="menu-right">
-        <a id="chapters" class="header-menu-item" href="chapters.html"
-        >Chapters</a
-        >
-        <a id="about-us" class="header-menu-item" href="about-us.html"
-        >About Us</a
-        >
-        <a id="change-language" class="header-menu-item" href="welsh.html"
-        >Cymraeg</a
-        >
+    <div class="header">
+      <div class="header-menu">
+        <a id="header-menu-title" href="english.html">Barmouth History</a>
+        <div class="menu-right">
+          <a id="chapters" href="chapters.html"
+            >Chapters</a
+          >
+          <a id="about-us" href="about-us.html"
+            >About Us</a
+          >
+          <a id="change-language" href="cum.html"
+            >Cymraeg</a
+          >
+        </div>
+      </div>
     </div>
-    </div>
-</div>
 
 <div class="header">
   <div class="header-menu">
     <a id="header-menu-title" href="welsh.html">Hanes Abermaw</a>
     <div class="menu-right">
-      <a id="pennodau" class="header-menu-item" href="pennodau.html"
+      <a id="pennodau" href="pennodau.html"
         >Pennodau</a
       >
-      <a id="amdanom-ni" class="header-menu-item" href="amdanom-ni.html"
+      <a id="amdanom-ni" href="amdanom-ni.html"
         >Amdanom Ni</a
       >
-      <a id="change-language" class="header-menu-item" href="english.html"
+      <a id="change-language" href="english.html"
         >English</a
       >
     </div>
@@ -47,13 +47,13 @@
       <div class="header-menu">
         <a id="header-menu-title" href="english.html">Barmouth History</a>
         <div class="menu-right">
-          <a id="chapters" class="header-menu-item" href="chapters.html"
+          <a id="chapters" href="chapters.html"
             >Chapters</a
           >
-          <a id="about-us" class="header-menu-item" href="about-us.html"
+          <a id="about-us" href="about-us.html"
             >About Us</a
           >
-          <a id="change-language" class="header-menu-item" href="CURRENT_PAGE_WELSH_VER.html"
+          <a id="change-language" href="CURRENT_PAGE_WELSH_VER.html"
             >Cymraeg</a
           >
         </div>
