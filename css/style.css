@@ -12,6 +12,10 @@
 .header {
     overflow: hidden;
     border-bottom: 1px solid #000000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
 }
 
 .header-menu a {
@@ -24,11 +28,14 @@
 
 #header-menu-title {
     color: Red;
-    margin-right: 200px;
 }
 
 #change-language {
     color: green;
+}
+
+.main {
+    margin-top: 50px
 }
 
 .menu-right {
@@ -53,15 +60,45 @@
     color: rgba(0, 0, 0, 0.4);
 }
 
+
 .chapter-list li {
     padding: 10px 0;
     list-style: none;
 }
 
-.chapter-list button {
-    width: 700px;
+.chapter-list a { /* DO NOT USE TO EDIT TEXT, ONLY LINK LOOK */
+    text-decoration: none;
+}
+
+.chapter-list p {
+    width: 60vw;
     background-color: white;
     border: 1px black solid;
-    padding: 50px;
-    font-size: 40px;
+    padding: 40px;
+    font-size: 30px;
+    color: red;
+    text-align: center;
+}
+
+@media screen and (max-width: 525px) {
+    #header-menu-title {
+        position: fixed;
+        visibility: hidden;
+    }
+
+    .header-menu {
+        margin: auto;
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .chapter-list li {
+        padding: 5px 0;
+    }
+
+    .chapter-list p {
+        font-size: 20px;
+        padding: 10px 0;
+    }
 }
