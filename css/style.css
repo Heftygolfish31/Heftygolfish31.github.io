@@ -89,6 +89,10 @@
         margin: auto;
         width: fit-content;
     }
+
+    .header-menu a {
+        font-size: 25px;
+    }
 }
 
 @media screen and (max-width: 590px) {
@@ -100,4 +104,5 @@
         font-size: 20px;
         padding: 10px 0;
     }
+
 }
