@@ -43,6 +43,16 @@
     float: right;
 }
 
+.header-icon {
+    display: none;
+}
+
+#change-language-icon {
+    font-size: 45px;
+    padding-top: 5px
+}
+
+
 .welcome-container {
     border-bottom: 3px black solid;
 }
@@ -80,10 +90,6 @@
 }
 
 @media screen and (max-width: 710px) {
-    #header-menu-title {
-        position: fixed;
-        visibility: hidden;
-    }
 
     .header-menu {
         margin: auto;
@@ -94,12 +100,13 @@
         font-size: 25px;
     }
 
-    .welcome-title {
-        font-size: 60px;
-    }
 }
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 600px) {
+    .main {
+        padding-top: 8vw;
+    }
+
     .chapter-list li {
         padding: 5px 0;
     }
@@ -107,6 +114,23 @@
     .chapter-list p {
         font-size: 20px;
         padding: 10px 0;
+    }
+
+    .header-text {
+        display: none;
+    }
+
+    .header-icon {
+        width: 15vw;
+        display: inline;
+    }
+
+    #change-language-icon {
+        font-size: 13vw;
+    }
+    
+    .welcome-title {
+        font-size: 13vw;
     }
 
 }
