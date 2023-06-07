@@ -84,22 +84,27 @@
     <title>TITLE</title>
     <link type="text/css" rel="stylesheet" href="css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-
   </head>
 
   <body>
     <div class="header">
       <div class="header-menu">
-        <a id="header-menu-title" href="home.html">Barmouth History</a>
+        <a id="header-menu-title" href="home.html">
+          <p class="header-text">Barmouth History</p>
+          <img id="home-icon" class="header-icon" src="img/home.png"
+        /></a>
         <div class="menu-right">
           <a id="chapters" href="chapters.html"
-            >Chapters</a
-          >
+            ><p class="header-text">Chapters</p>
+            <img id="chapters-icon" class="header-icon" src="img/chapters.png"
+          /></a>
           <a id="about-us" href="about-us.html"
-            >About Us</a
-          >
-          <a id="change-language" href="CURRENT_PAGE_WELSH_VER.html"
-            >Cymraeg</a
+            ><p class="header-text">About Us</p>
+            <img id="about-us-icon" class="header-icon" src="img/about-us.png"
+          /></a>
+          <a id="change-language" href="adref.html"
+            ><p class="header-text">Cymraeg</p>
+            <p id="change-language-icon" class="header-icon">CY</p></a
           >
         </div>
       </div>
