@@ -27,7 +27,7 @@
     text-align: center;
     padding: 10px 16px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: x-large;
     color: black;
 }
 
@@ -44,7 +44,6 @@
 }
 
 #change-language-icon {
-    font-size: 45px;
     padding-top: 5px
 }
 
@@ -68,15 +67,11 @@
     }
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 630px) {
 
     .header-menu {
         margin: auto;
         width: fit-content;
-    }
-
-    .header-menu a {
-        font-size: 25px;
     }
 
 }
@@ -84,13 +79,13 @@
 /* MAIN */
 
 .main {
-    margin-top: 65px;
+    margin-top: 50px;
 }
 
 @media screen and (max-width: 630px) {
 
     .main {
-        padding-top: 8vw;
+        padding-top: 12vw;
     }
 
 }
@@ -101,18 +96,25 @@
 
         .welcome-container {
             border-bottom: 3px black solid;
+            height: 9vw;
+            padding-top: 10vw;
         }
 
         .welcome-title {
-            font-size: 80px;
-            padding: 180px 0 0 0 ;
+            font-size: xx-large;
 
         }
 
         .welcome-subtitle {
-            font-size: 20px;
-            padding: 0 0 200px 0;
+            font-size: large;
             color: rgba(0, 0, 0, 0.4);
+        }
+
+        @media screen and (max-width: 630px) {
+            .welcome-container {
+                padding-top: 2vw;
+                height: fit-content;
+            }
         }
 
         /* GREETING */
@@ -120,9 +122,8 @@
         .greeting-message {
             background-color: antiquewhite;
             margin: 30px 30px 10px;
-            /* height: 40vh; */
             padding: 30px;
-            font-size: 20px
+            font-size: large;
         }
 
         /* MAIN MENU */
@@ -213,21 +214,22 @@
         }
 
         .title .chapter-title {
-            font-size: 50px;
+            font-size: xx-large;
         }
 
         .title .chapter-subtitle {
-            font-size: 20px;
+            font-size: x-large;
         }
 
         .description {
             background-color: #538D22;
             height: fit-content;
+            font-size: medium;
         }
 
         .metadata {
             background-color: #73A942;
-
+            font-size: smaller;
         }
 
         .sources li {
