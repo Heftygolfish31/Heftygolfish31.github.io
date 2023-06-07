@@ -1,12 +1,12 @@
 #HEADER
     <div class="header">
       <div class="header-menu">
-        <a id="header-menu-title" href="home.html">Barmouth History</a>
+        <a id="header-menu-title" href="/en/home.html">Barmouth History</a>
         <div class="menu-right">
-          <a id="chapters" href="chapters.html"
+          <a id="chapters" href="/en/chapters.html"
             >Chapters</a
           >
-          <a id="about-us" href="about-us.html"
+          <a id="about-us" href="/en/about-us.html"
             >About Us</a
           >
           <a id="change-language" href="cum.html"
@@ -18,15 +18,15 @@
 
 <div class="header">
   <div class="header-menu">
-    <a id="header-menu-title" href="adref.html">Hanes Abermaw</a>
+    <a id="header-menu-title" href="/cy/adref.html">Hanes Abermaw</a>
     <div class="menu-right">
-      <a id="pennodau" href="pennodau.html"
+      <a id="pennodau" href="/cy/pennodau.html"
         >Pennodau</a
       >
-      <a id="amdanom-ni" href="amdanom-ni.html"
+      <a id="amdanom-ni" href="/cy/amdanom-ni.html"
         >Amdanom Ni</a
       >
-      <a id="change-language" href="home.html"
+      <a id="change-language" href="/en/home.html"
         >English</a
       >
     </div>
@@ -35,19 +35,19 @@
 
 <div class="header">
   <div class="header-menu">
-    <a id="header-menu-title" href="home.html">
+    <a id="header-menu-title" href="/en/home.html">
       <p class="header-text">Barmouth History</p>
-      <img id="home-icon" class="header-icon" src="img/home.png" /></a>
+      <img id="home-icon" class="header-icon" src="/img/home.png" /></a>
     <div class="menu-right">
-      <a id="chapters" href="chapters.html"
+      <a id="chapters" href="/en/chapters.html"
         ><p class="header-text">Chapters</p>
-        <img id="chapters-icon" class="header-icon" src="img/chapters.png" /></a
+        <img id="chapters-icon" class="header-icon" src="/img/chapters.png" /></a
       >
-      <a id="about-us" href="about-us.html"
+      <a id="about-us" href="/en/about-us.html"
         ><p class="header-text">About Us</p>
-        <img id="about-us-icon" class="header-icon" src="img/about-us.png" /></a
+        <img id="about-us-icon" class="header-icon" src="/img/about-us.png" /></a
       >
-      <a id="change-language" href="adref.html"
+      <a id="change-language" href="/cy/adref.html"
         ><p class="header-text">Cymraeg</p>
         <p id="change-language-icon" class="header-icon">CY</p></a
         >
@@ -57,19 +57,19 @@
 
 <div class="header">
   <div class="header-menu">
-    <a id="header-menu-title" href="adref.html">
+    <a id="header-menu-title" href="/cy/adref.html">
       <p class="header-text">Hanes Abermaw</p>
-      <img id="home-icon" class="header-icon" src="img/home.png" /></a>
+      <img id="home-icon" class="header-icon" src="/img/home.png" /></a>
     <div class="menu-right">
-      <a id="chapters" href="pennodau.html"
+      <a id="chapters" href="/cy/pennodau.html"
         ><p class="header-text">Pennodau</p>
-        <img id="chapters-icon" class="header-icon" src="img/chapters.png" /></a
+        <img id="chapters-icon" class="header-icon" src="/img/chapters.png" /></a
       >
-      <a id="about-us" href="amdanom-ni.html"
+      <a id="about-us" href="/cy/amdanom-ni.html"
         ><p class="header-text">Amdanom Ni</p>
-        <img id="about-us-icon" class="header-icon" src="img/about-us.png" /></a
+        <img id="about-us-icon" class="header-icon" src="/img/about-us.png" /></a
       >
-      <a id="change-language" href="home.html"
+      <a id="change-language" href="/en/home.html"
         ><p class="header-text">English</p>
         <p id="change-language-icon" class="header-icon">EN</p></a
         >
@@ -82,34 +82,34 @@
 <html>
   <head>
     <title>TITLE</title>
-    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link type="text/css" rel="stylesheet" href="/css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
   </head>
 
   <body>
     <div class="header">
       <div class="header-menu">
-        <a id="header-menu-title" href="home.html">
+        <a id="header-menu-title" href="/en/home.html">
           <p class="header-text">Barmouth History</p>
-          <img id="home-icon" class="header-icon" src="img/home.png"
+          <img id="home-icon" class="header-icon" src="/img/home.png"
         /></a>
         <div class="menu-right">
-          <a id="chapters" href="chapters.html"
+          <a id="chapters" href="/en/chapters.html"
             ><p class="header-text">Chapters</p>
-            <img id="chapters-icon" class="header-icon" src="img/chapters.png"
+            <img id="chapters-icon" class="header-icon" src="/img/chapters.png"
           /></a>
-          <a id="about-us" href="about-us.html"
+          <a id="about-us" href="/en/about-us.html"
             ><p class="header-text">About Us</p>
-            <img id="about-us-icon" class="header-icon" src="img/about-us.png"
+            <img id="about-us-icon" class="header-icon" src="/img/about-us.png"
           /></a>
-          <a id="change-language" href="adref.html"
+          <a id="change-language" href="/cy/adref.html"
             ><p class="header-text">Cymraeg</p>
             <p id="change-language-icon" class="header-icon">CY</p></a
           >
         </div>
       </div>
     </div>
-    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="/js/script.js"></script>
   </body>
 </html>
 
@@ -122,48 +122,48 @@
 div class="chapter-list center">
   <ul>
     <li>
-      <a href="chapters/chapter-1.html">
+      <a href="/chapters/chapter-1.html">
         <p>Chapter 1: The First Coming</p>
       </a>
     </li>
     <li>
-      <a href="chapters/chapter-2.html">
+      <a href="/chapters/chapter-2.html">
         <p>Chapter 2: Electric Boogaloo</p>
       </a>
     </li>
     <li>
-      <a href="chapters/chapter-3.html">
+      <a href="/chapters/chapter-3.html">
         <p>Chapter 3: Chapter Again</p>
       </a>
     </li>
     <li>
-      <a href="chapters/chapter-4.html">
+      <a href="/chapters/chapter-4.html">
         <p>Chapter 4: Return of the Chapter</p>
       </a>
     </li>
     <li>
-      <a href="chapters/chapter-5.html">
+      <a href="/chapters/chapter-5.html">
         <p>Chapter 5: Too Chapter Too Chapterous</p>
       </a>
     </li>
     <li>
-      <a href="chapters/chapter-6.html">
+      <a href="/chapters/chapter-6.html">
         <p>Chapter 6: Hot Chapter</p>
       </a>
     </li>
     <li>
-      <a href="chapters/chapter-7.html">
+      <a href="/chapters/chapter-7.html">
         <p>Chapter 7: Chapter Chapter Bang Bang</p>
       </a>
     </li>
     <li>
-      <a href="chapters/chapter-8.html">
+      <a href="/chapters/chapter-8.html">
         <p>Chapter 8: Chapter On Ice</p>
       </a>
     </li>
     <li>
       </button>
-      <a href="chapters/chapter-9.html">
+      <a href="/chapters/chapter-9.html">
         <p>Chapter 9: End of an Era</p>
       </a>
     </li>
