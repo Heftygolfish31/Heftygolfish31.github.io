@@ -1,7 +1,9 @@
+/* SETUP */
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: sans-serif;
 }
 
 .center {
@@ -9,6 +11,8 @@
     width: fit-content;
 }
 
+
+/* HEADER */
 .header {
     overflow: hidden;
     border-bottom: 1px solid #000000;
@@ -35,14 +39,6 @@
     color: green;
 }
 
-.main {
-    margin-top: 65px;
-}
-
-.menu-right {
-    float: right;
-}
-
 .header-icon {
     display: none;
 }
@@ -52,69 +48,11 @@
     padding-top: 5px
 }
 
-
-.welcome-container {
-    border-bottom: 3px black solid;
+.menu-right {
+    float: right;
 }
 
-.welcome-title {
-    font-size: 80px;
-    padding: 180px 0 0 0 ;
-
-}
-
-.welcome-subtitle {
-    font-size: 20px;
-    padding: 0 0 200px 0;
-    color: rgba(0, 0, 0, 0.4);
-}
-
-
-.chapter-list li {
-    padding: 10px 0;
-    list-style: none;
-}
-
-.chapter-list a { /* DO NOT USE TO EDIT TEXT, ONLY LINK LOOK */
-    text-decoration: none;
-}
-
-.chapter-list p {
-    width: 60vw;
-    background-color: white;
-    border: 1px black solid;
-    padding: 40px;
-    font-size: 30px;
-    color: red;
-    text-align: center;
-}
-
-@media screen and (max-width: 710px) {
-
-    .header-menu {
-        margin: auto;
-        width: fit-content;
-    }
-
-    .header-menu a {
-        font-size: 25px;
-    }
-
-}
-
-@media screen and (max-width: 600px) {
-    .main {
-        padding-top: 8vw;
-    }
-
-    .chapter-list li {
-        padding: 5px 0;
-    }
-
-    .chapter-list p {
-        font-size: 20px;
-        padding: 10px 0;
-    }
+@media screen and (max-width: 630px) {
 
     .header-text {
         display: none;
@@ -128,9 +66,195 @@
     #change-language-icon {
         font-size: 13vw;
     }
-    
-    .welcome-title {
-        font-size: 13vw;
+}
+
+@media screen and (max-width: 730px) {
+
+    .header-menu {
+        margin: auto;
+        width: fit-content;
+    }
+
+    .header-menu a {
+        font-size: 25px;
     }
 
 }
+
+/* MAIN */
+
+.main {
+    margin-top: 65px;
+}
+
+@media screen and (max-width: 630px) {
+
+    .main {
+        padding-top: 8vw;
+    }
+
+}
+
+    /* HOME */
+
+        /* WELCOME */
+
+        .welcome-container {
+            border-bottom: 3px black solid;
+        }
+
+        .welcome-title {
+            font-size: 80px;
+            padding: 180px 0 0 0 ;
+
+        }
+
+        .welcome-subtitle {
+            font-size: 20px;
+            padding: 0 0 200px 0;
+            color: rgba(0, 0, 0, 0.4);
+        }
+
+        /* GREETING */
+
+        .greeting-message {
+            background-color: antiquewhite;
+            margin: 30px 30px 10px;
+            /* height: 40vh; */
+            padding: 30px;
+            font-size: 20px
+        }
+
+        /* MAIN MENU */
+        
+        .option {
+            border: 1px solid black;
+            width: fit-content;
+            margin: 10px;
+        }
+
+        .option a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .chapters-option {
+            float: left;
+            background-color: red;
+        }
+
+        .about-us-option {
+            float: right;
+            background-color: green;
+        }
+
+        @media screen and (max-width: 630px) {
+    
+            .welcome-title {
+                font-size: 40px;
+                padding-top: 20px;
+            }
+        
+            .welcome-subtitle {
+                padding-bottom: 20px;
+            }
+        
+        }
+
+
+    /* CHAPTERS */
+
+        /* CHAPTER OVERVIEW */
+
+        .chapter-list li {
+            padding: 10px 0;
+            list-style: none;
+        }
+
+        .chapter-list a { /* DO NOT USE TO EDIT TEXT, ONLY LINK LOOK */
+            text-decoration: none;
+        }
+
+        .chapter-list p {
+            width: 60vw;
+            background-color: white;
+            border: 1px black solid;
+            padding: 40px;
+            font-size: 30px;
+            color: red;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 630px) {
+        
+            .chapter-list li {
+                padding: 5px 0;
+            }
+        
+            .chapter-list p {
+                font-size: 20px;
+                padding: 10px 0;
+            }
+
+        }
+
+        /* CHAPTER PAGES */
+
+        .title, .description, .metadata {
+            width: 50vw;
+            margin: 0 0 5px 20vw;
+            border: 1px solid black;
+            border-bottom-right-radius: 10px 10px;
+            padding: 10px;
+        }
+
+        .title {
+            background-color: #245501;
+        }
+
+        .title .chapter-title {
+            font-size: 50px;
+        }
+
+        .title .chapter-subtitle {
+            font-size: 20px;
+        }
+
+        .description {
+            background-color: #538D22;
+            height: fit-content;
+        }
+
+        .metadata {
+            background-color: #73A942;
+
+        }
+
+        .sources li {
+            list-style: none;
+        }
+
+        @media screen and (max-width: 630px) {
+
+            .title, .description, .metadata {
+                width: 91vw;
+                margin-left: 2vw;
+            }
+
+            .title .chapter-title {
+                font-size: 40px;
+            }
+
+            .title .chapter-subtitle {
+                font-size: 20px;
+            }
+
+        }
+
+        
+/* PALLETTS */
+
+/* 
+https://coolors.co/palette/143601-1a4301-245501-538d22-73a942-aad576 GREEN used in chapters
+https://coolors.co/808080-d3d3d3-ffffff-000000 GRAY used in chapter test
+*/
