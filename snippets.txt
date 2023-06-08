@@ -122,48 +122,48 @@
 div class="chapter-list center">
   <ul>
     <li>
-      <a href="/chapters/chapter-1.html">
+      <a href="/en/chapters/chapter-1.html">
         <p>Chapter 1: The First Coming</p>
       </a>
     </li>
     <li>
-      <a href="/chapters/chapter-2.html">
+      <a href="/en/chapters/chapter-2.html">
         <p>Chapter 2: Electric Boogaloo</p>
       </a>
     </li>
     <li>
-      <a href="/chapters/chapter-3.html">
+      <a href="/en/chapters/chapter-3.html">
         <p>Chapter 3: Chapter Again</p>
       </a>
     </li>
     <li>
-      <a href="/chapters/chapter-4.html">
+      <a href="/en/chapters/chapter-4.html">
         <p>Chapter 4: Return of the Chapter</p>
       </a>
     </li>
     <li>
-      <a href="/chapters/chapter-5.html">
+      <a href="/en/chapters/chapter-5.html">
         <p>Chapter 5: Too Chapter Too Chapterous</p>
       </a>
     </li>
     <li>
-      <a href="/chapters/chapter-6.html">
+      <a href="/en/chapters/chapter-6.html">
         <p>Chapter 6: Hot Chapter</p>
       </a>
     </li>
     <li>
-      <a href="/chapters/chapter-7.html">
+      <a href="/en/chapters/chapter-7.html">
         <p>Chapter 7: Chapter Chapter Bang Bang</p>
       </a>
     </li>
     <li>
-      <a href="/chapters/chapter-8.html">
+      <a href="/en/chapters/chapter-8.html">
         <p>Chapter 8: Chapter On Ice</p>
       </a>
     </li>
     <li>
       </button>
-      <a href="/chapters/chapter-9.html">
+      <a href="/en/chapters/chapter-9.html">
         <p>Chapter 9: End of an Era</p>
       </a>
     </li>
