@@ -6,6 +6,15 @@
     font-family: sans-serif;
 }
 
+:root {
+    --colour-1: #143601;
+    --colour-2: #1A4301;
+    --colour-3: #245501;
+    --colour-4: #538D22;
+    --colour-5: #73A942;
+    --colour-6: #AAD576;
+}
+
 .center {
     margin: auto;
     width: fit-content;
@@ -15,10 +24,10 @@
 .header {
     overflow: hidden;
     border-bottom: 1px solid #000000;
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
-    background-color: white;
+    background-color: var(--colour-6);
 }
 
 .header-menu a {
@@ -28,10 +37,6 @@
     text-decoration: none;
     font-size: x-large;
     color: black;
-}
-
-#header-menu-title {
-    color: red;
 }
 
 #change-language {
@@ -50,6 +55,27 @@
     float: right;
 }
 
+.menu-right a {
+    color: var(--colour-3);
+}
+
+.menu-right :hover {
+    background-color: var(--colour-1);
+    color: var(--colour-5);
+}
+
+#header-menu-title p {
+    color: var(--colour-1);
+}
+
+#change-language {
+    background-color: var(--colour-1);
+}
+
+#change-language p {
+    color: var(--colour-6);
+}
+
 @media screen and (max-width: 630px) {
 
     .header-text {
@@ -57,12 +83,13 @@
     }
 
     .header-icon {
-        width: 15vw;
+        height: 60px;
         display: inline;
     }
 
     #change-language-icon {
-        font-size: 13vw;
+        line-height: 65px;
+        font-size: xx-large;
     }
 }
 
@@ -76,17 +103,8 @@
 }
 
 /* MAIN */
-
 .main {
-    margin-top: 50px;
-}
-
-@media screen and (max-width: 630px) {
-
-    .main {
-        padding-top: 12vw;
-    }
-
+    margin-top: 10px
 }
 
     /* HOME */
@@ -119,7 +137,7 @@
         /* GREETING */
 
         .greeting-message {
-            background-color: antiquewhite;
+            background-color: var(--colour-6);
             margin: 30px 30px 10px;
             padding: 30px;
             font-size: large;
@@ -135,18 +153,20 @@
 
         .option a {
             text-decoration: none;
-            color: black;
+            color: white;
             font-weight: bold;
+        }
+
+        .chapters-option, .about-us-option {
+            background-color: var(--colour-3);
         }
 
         .chapters-option {
             float: left;
-            background-color: red;
         }
 
         .about-us-option {
             float: right;
-            background-color: green;
         }
 
         @media screen and (max-width: 630px) {
@@ -178,16 +198,17 @@
 
         .chapter-list p {
             width: 80vw;
-            background-color: white;
-            border: 1px black solid;
+            border: 1px var(--colour-1) solid;
             padding: 40px;
             font-size: 30px;
-            color: red;
+            background-color: var(--colour-6);
+            color: var(--colour-2);
             text-align: center;
         }
         
         .chapter-list a :hover {
-            background-color: black;
+            background-color: var(--colour-1);
+            color: var(--colour-6)
         }
 
         @media screen and (max-width: 630px) {
@@ -215,7 +236,7 @@
         }
 
         .title {
-            background-color: #245501;
+            background-color: var(--colour-3);
         }
 
         .title .chapter-title {
@@ -227,13 +248,13 @@
         }
 
         .description {
-            background-color: #538D22;
+            background-color: var(--colour-4);
             height: fit-content;
             font-size: medium;
         }
 
         .metadata {
-            background-color: #73A942;
+            background-color: var(--colour-6);
             font-size: smaller;
         }
 
@@ -252,6 +273,7 @@
             width: 100px;
             font-weight: bold;
             color: black;
+            margin: 5px
         }
 
         .move-option a {
@@ -259,13 +281,15 @@
         }
 
         .backward {
-            background-color: red;
+            background-color: var(--colour-2);
+            color: white;
             border-radius: 30% 0% 0% 30% / 50% 0% 0% 50% ;
             padding-left: 20px;
         }
 
         .forward {
-            background-color: green;
+            background-color: var(--colour-2);
+            color: white;
             border-radius: 0% 30% 30% 0% / 0% 50% 50% 0% ;
             padding-right: 20px;
         }
