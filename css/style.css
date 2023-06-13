@@ -184,6 +184,10 @@
 
         /* CHAPTER OVERVIEW */
 
+        .entry {
+            padding-top: 10px;
+        }
+
         .chapter-list li {
             padding: 10px 0;
             list-style: none;
