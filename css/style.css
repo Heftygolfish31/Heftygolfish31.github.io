@@ -110,16 +110,26 @@
 
         .welcome-container {
             border-bottom: 3px black solid;
-            height: 9vw;
+            height: 18vw;
             padding-top: 10vw;
+            background-image: url("/img/test.jpg");
+        }
+
+        .welcome-title, .welcome-subtitle {
+            background-color: white;
+            width: 450px;
+            text-align: center;
         }
 
         .welcome-title {
+            padding-top: 25px;
+            border-radius: 30px 30px 0 0;
             font-size: xxx-large;
-
         }
 
         .welcome-subtitle {
+            padding-bottom: 25px;
+            border-radius: 0 0 30px 30px;
             font-size: x-large;
             color: rgba(0, 0, 0, 0.4);
         }
@@ -127,7 +137,6 @@
         @media screen and (max-width: 630px) {
             .welcome-container {
                 padding-top: 2vw;
-                height: fit-content;
             }
         }
 
@@ -262,9 +271,12 @@
             border-radius: 5%;
         }
 
-        .description p {
-            padding: 20px 0 5px 10px;
+        .description p, .image-quote-pair > p {
             font-size: x-large;
+        }
+
+        .description p {
+            margin: 10px 10vw 15px 10vw;
         }
 
         .image-quote-pair {
@@ -275,7 +287,12 @@
             padding: 20px;
             border-radius: 5%;
             font-size: large;
-            
+        }
+
+        .image-quote-pair > p {
+            padding: 20px 0 5px 10px;
+            margin-left: 10px;
+            font-size: x-large;
         }
 
         .metadata {
