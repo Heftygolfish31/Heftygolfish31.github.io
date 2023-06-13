@@ -123,48 +123,48 @@ div class="chapter-list center">
   <ul>
     <li>
       <a href="/en/chapters/chapter-1.html">
-        <p>Chapter 1: The First Coming</p>
+        <p>Chapter 1: Early Beginnings</p>
       </a>
     </li>
     <li>
       <a href="/en/chapters/chapter-2.html">
-        <p>Chapter 2: Electric Boogaloo</p>
+        <p>Chapter 2: Mining and Agriculture</p>
       </a>
     </li>
     <li>
       <a href="/en/chapters/chapter-3.html">
-        <p>Chapter 3: Chapter Again</p>
+        <p>Chapter 3: Barmouth Maritime</p>
       </a>
     </li>
     <li>
       <a href="/en/chapters/chapter-4.html">
-        <p>Chapter 4: Return of the Chapter</p>
+        <p>Chapter 4: Bridge Promenade Tourism</p>
       </a>
     </li>
     <li>
       <a href="/en/chapters/chapter-5.html">
-        <p>Chapter 5: Too Chapter Too Chapterous</p>
+        <p>Chapter 5: The Churches</p>
       </a>
     </li>
     <li>
       <a href="/en/chapters/chapter-6.html">
-        <p>Chapter 6: Hot Chapter</p>
+        <p>Chapter 6: The Town</p>
       </a>
     </li>
     <li>
       <a href="/en/chapters/chapter-7.html">
-        <p>Chapter 7: Chapter Chapter Bang Bang</p>
+        <p>Chapter 7: Notable People</p>
       </a>
     </li>
     <li>
       <a href="/en/chapters/chapter-8.html">
-        <p>Chapter 8: Chapter On Ice</p>
+        <p>Chapter 8: Myths, Legends and True Stories</p>
       </a>
     </li>
     <li>
       </button>
       <a href="/en/chapters/chapter-9.html">
-        <p>Chapter 9: End of an Era</p>
+        <p>Chapter 9: The Lifeboats</p>
       </a>
     </li>
   </ul>
