@@ -40,7 +40,7 @@
 }
 
 #change-language {
-    color: green;
+    color: var(--colour-1);
 }
 
 .header-icon {
@@ -103,9 +103,6 @@
 }
 
 /* MAIN */
-.main {
-    margin-top: 10px
-}
 
     /* HOME */
 
@@ -305,6 +302,72 @@
             }
 
         }
+
+    /* ABOUT US */
+
+    .credits {
+        /* background-color: #538D22; */
+        margin: 10px;
+    }
+
+    .credits a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .credits-title, .thanks, .facebook, .people {
+        border: 1px solid black;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .thanks, .facebook, .people {
+        font-size: large;
+    }
+
+    .credits-title {
+        font-size: xx-large;
+        background-color: var(--colour-3);
+    }
+
+    .thanks {
+        background-color: var(--colour-4);
+    }
+
+    .facebook {
+        background-color: var(--colour-5);
+        overflow: hidden;
+    }
+
+    .facebook img {
+        /* YOU CAN'T CHANGE THE BELOW */
+        padding: 12px; /* THIS CANNOT MINIMISE BELOW 11.25px (1/4 H Logo) */
+        height: 45px;
+        width: 45px;
+        /* YOU CAN'T CHANGE THE ABOVE */
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 20%;
+        /* margin-top: vw; */
+    }
+
+    .facebook p {
+        width: 60vw;
+        margin: 2vw 0 0 2vw;
+    }
+
+    .facebook-item {
+        float: left;
+        text-align: center;
+    }
+
+    .people {
+        background-color: var(--colour-6);
+    }
+
+    @media screen and (max-width: 770px) {
+
+    }
 
 /* OVVERIDE */
 .disabled {
