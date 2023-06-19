@@ -37,15 +37,15 @@
   <div class="header-menu">
     <a id="header-menu-title" href="/en/home.html">
       <p class="header-text">Barmouth History</p>
-      <img id="home-icon" class="header-icon" src="/img/home.png" /></a>
+      <img id="home-icon" class="header-icon" src="/img/icon/home.png" /></a>
     <div class="menu-right">
       <a id="chapters" href="/en/chapters.html"
         ><p class="header-text">Chapters</p>
-        <img id="chapters-icon" class="header-icon" src="/img/chapters.png" /></a
+        <img id="chapters-icon" class="header-icon" src="/img/icon/chapters.png" /></a
       >
       <a id="about-us" href="/en/about-us.html"
         ><p class="header-text">About Us</p>
-        <img id="about-us-icon" class="header-icon" src="/img/about-us.png" /></a
+        <img id="about-us-icon" class="header-icon" src="/img/icon/about-us.png" /></a
       >
       <a id="change-language" href="/cy/adref.html"
         ><p class="header-text">Cymraeg</p>
@@ -59,15 +59,15 @@
   <div class="header-menu">
     <a id="header-menu-title" href="/cy/adref.html">
       <p class="header-text">Hanes Abermaw</p>
-      <img id="home-icon" class="header-icon" src="/img/home.png" /></a>
+      <img id="home-icon" class="header-icon" src="/img/icon/home.png" /></a>
     <div class="menu-right">
       <a id="chapters" href="/cy/pennodau.html"
         ><p class="header-text">Pennodau</p>
-        <img id="chapters-icon" class="header-icon" src="/img/chapters.png" /></a
+        <img id="chapters-icon" class="header-icon" src="/img/icon/chapters.png" /></a
       >
       <a id="about-us" href="/cy/amdanom-ni.html"
         ><p class="header-text">Amdanom Ni</p>
-        <img id="about-us-icon" class="header-icon" src="/img/about-us.png" /></a
+        <img id="about-us-icon" class="header-icon" src="/img/icon/about-us.png" /></a
       >
       <a id="change-language" href="/en/home.html"
         ><p class="header-text">English</p>
@@ -91,16 +91,16 @@
       <div class="header-menu">
         <a id="header-menu-title" href="/en/home.html">
           <p class="header-text">Barmouth History</p>
-          <img id="home-icon" class="header-icon" src="/img/home.png"
+          <img id="home-icon" class="header-icon" src="/img/icon/home.png"
         /></a>
         <div class="menu-right">
           <a id="chapters" href="/en/chapters.html"
             ><p class="header-text">Chapters</p>
-            <img id="chapters-icon" class="header-icon" src="/img/chapters.png"
+            <img id="chapters-icon" class="header-icon" src="/img/icon/chapters.png"
           /></a>
           <a id="about-us" href="/en/about-us.html"
             ><p class="header-text">About Us</p>
-            <img id="about-us-icon" class="header-icon" src="/img/about-us.png"
+            <img id="about-us-icon" class="header-icon" src="/img/icon/about-us.png"
           /></a>
           <a id="change-language" href="/cy/adref.html"
             ><p class="header-text">Cymraeg</p>
@@ -169,3 +169,34 @@ div class="chapter-list center">
     </li>
   </ul>
 </div>
+
+
+<div id="image3" class="gallery-image">
+  <img
+    alt=""
+    src="/img/chapters/chapter-1/image3.jpg"
+  />
+  <p>Caelexti Mondeo Rigi</p>
+</div>
+
+
+<div id="image(.+)" class="gallery-image">(\r?\n\s*)<img(\r?\n\s*)alt="(.*)"(\r?\n\s*)src="(.*?)"(\r?\n\s*)/>(\r?\n\s*)<p>(.*?)</p>(\r?\n\s*)</div> FIND
+<a href="$6" target="_blank"><div id="image$1" class="gallery-image">$2<img$3alt="$4"$5src="$6"$7/>$8<p>$9</p>$10</div></a> PUT
+
+---
+
+<a href="/img/chapters/chapter-2/image23.jpg" target="_blank"><div id="image23" class="gallery-image">
+  <img
+    alt="Cae Tudur 1935 - Joseph and Gwen Roberts with John Owen Williams"
+    src="/img/chapters/chapter-2/image23.jpg"
+  />
+  <p>
+    Cae Tudur 1935 - Joseph and Gwen Roberts with John Owen Williams
+  </p>
+</div></a>
+
+<div id="image(.+)" class="gallery-image">(\r?\n\s*)<img(\r?\n\s*)alt="(.*)"(\r?\n\s*)src="(.*?)"(\r?\n\s*)/>(\r?\n\s*)<p>(\r?\n\s*)(.*?)(\r?\n\s*)</p>(\r?\n\s*)</div> FIND
+<a href="$6" target="_blank"><div id="image$1" class="gallery-image">$2<img$3alt="$4"$5src="$6"$7/>$8<p>$9$10$11</p>$12</div></a> PUT
+
+---
+

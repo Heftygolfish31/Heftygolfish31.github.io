@@ -463,8 +463,41 @@ a {
         margin-bottom: 5px;
     }
 
-    @media screen and (max-width: 770px) {
+    /* GALLERY */
 
+    .gallery {
+        width: 90vw;
+        padding: 2vw 0 2vw 2vw;
+        display: grid;
+        grid-gap: 2vw 5vw; 
+        grid-template-columns: repeat(3, 25vw);
+        grid-auto-flow: row;
+
+        background-color: var(--colour-1);
+    }
+
+    .gallery a {
+        height: fit-content;
+    }
+
+    .gallery-image {
+        width: 25vw;
+        height: fit-content;
+
+        padding: 1vw;
+        border-radius: 5%;
+
+        background-color: var(--colour-6);
+    }
+
+    .gallery-image p {
+        font-size: larger;
+
+    }
+
+    .gallery-image img {
+        width: inherit;
+        border-radius: 1%;
     }
 
 /* OVVERIDE */
